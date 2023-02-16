@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon ]">
+  <test thread-count="5" name="TestN(failed)">
+    <classes>
+      <class name="testLayer.TestCreateAccount">
+        <methods>
+          <include name="getMobileverifybtn"/>
+          <include name="Invalidpassword"/>
+          <include name="EmptyYourField"/>
+          <include name="close"/>
+          <include name="Emptypassword"/>
+          <include name="DisplayingCreateAcc"/>
+          <include name="Invalidpasswordagain"/>
+          <include name="Missmatchedpasswordagain"/>
+          <include name="getEmailverifybtn"/>
+          <include name="EmptyMobileField"/>
+          <include name="initsetup"/>
+        </methods>
+      </class> <!-- testLayer.TestCreateAccount -->
+    </classes>
+  </test> <!-- TestN(failed) -->
+  <test thread-count="5" name="Softassert(failed)">
+    <classes>
+      <class name="testLayer.TestSignin">
+        <methods>
+          <include name="ValidEmailPhone"/>
+          <include name="dispaysignin"/>
+          <include name="KeepMeSigninagain"/>
+          <include name="KeepMeSignin"/>
+          <include name="InvalidEmailPhone"/>
+          <include name="close"/>
+          <include name="initsetup"/>
+          <include name="viewAccInfo"/>
+        </methods>
+      </class> <!-- testLayer.TestSignin -->
+    </classes>
+  </test> <!-- Softassert(failed) -->
+</suite> <!-- Failed suite [Amazon ] -->

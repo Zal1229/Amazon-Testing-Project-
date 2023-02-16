@@ -1,0 +1,14 @@
+<suite name="Amazon ">
+	<test name="TestN" allow-return-values="true">
+		<classes>
+			<class name="testLayer.TestCreateAccount" />
+		</classes>
+	</test>
+	
+	<test name="Softassert" allow-return-values="true">
+		<classes>
+			<class name="testLayer.TestSignin" />
+		</classes>
+	</test>
+
+</suite>
